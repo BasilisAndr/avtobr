@@ -1,0 +1,1174 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.LogitBoost -P 100 -L -1.7976931348623157E308 -H 1.0 -Z 3.0 -O 1 -E 1 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+Relation:     features2-weka.filters.unsupervised.attribute.Remove-R1,5-6,9
+Instances:    200
+Attributes:   8
+              prevword
+              word
+              nextword
+              prevtag
+              nexttag
+              prevtags
+              nexttags
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+LogitBoost: Base classifiers and their weights:
+
+Iteration 1
+	Class 1 (class=орудие)
+
+Decision Stump
+
+Classifications
+
+word = рук : 1.3071895424836604
+word != рук : -0.32051282051282093
+word is missing : -0.09182736455463743
+
+
+	Class 2 (class=конечность)
+
+Decision Stump
+
+Classifications
+
+prevtags = S-SPRO : -1.1111111111111112
+prevtags != S-SPRO : 2.408675799086755
+prevtags is missing : 2.3728813559321935
+
+
+	Class 3 (class=власть)
+
+Decision Stump
+
+Classifications
+
+word = руках : 1.5745393634840859
+word != руках : -0.5109489051094888
+word is missing : 0.04462293618920186
+
+
+	Class 4 (class=владение)
+
+Decision Stump
+
+Classifications
+
+nextword = у : 2.6262626262626263
+nextword != у : -0.32400589101620014
+nextword is missing : -0.18726591760299735
+
+
+	Class 5 (class=очередь)
+
+Decision Stump
+
+Classifications
+
+prevtags = PR-ANUM : 3.0
+prevtags != PR-ANUM : -0.8454496499730757
+prevtags is missing : -0.6676938880328716
+
+
+	Class 6 (class=помощь)
+
+Decision Stump
+
+Classifications
+
+nextword = будущее : 3.0
+nextword != будущее : -1.111111111111111
+nextword is missing : -1.0433827567270741
+
+
+	Class 7 (class=сила_власть)
+
+Decision Stump
+
+Classifications
+
+nextword = рынок : 2.9999999999999996
+nextword != рынок : -1.043046357615893
+nextword is missing : -0.9771986970684036
+
+
+	Class 8 (class=недалеко)
+
+Decision Stump
+
+Classifications
+
+prevword = под : 2.7672955974842766
+prevword != под : -0.9065782200110566
+prevword is missing : -0.6097560975609748
+
+
+	Class 9 (class=сторона)
+
+Decision Stump
+
+Classifications
+
+nextword = от : 3.0
+nextword != от : -1.1111111111111112
+nextword is missing : -1.0433827567270744
+
+
+	Class 10 (class=состояние)
+
+Decision Stump
+
+Classifications
+
+nextword = выдаваться : 3.0
+nextword != выдаваться : -1.1111111111111114
+nextword is missing : -1.0433827567270744
+
+
+Iteration 2
+	Class 1 (class=орудие)
+
+Decision Stump
+
+Classifications
+
+prevtag = A : 1.5556961034713928
+prevtag != A : -0.01777339400734972
+prevtag is missing : 0.2637063569731986
+
+
+	Class 2 (class=конечность)
+
+Decision Stump
+
+Classifications
+
+prevword = свой : -2.5713439861381113
+prevword != свой : 0.24810082848183035
+prevword is missing : 0.17487547438407222
+
+
+	Class 3 (class=власть)
+
+Decision Stump
+
+Classifications
+
+prevtags = S-APRO : 2.6225819990161083
+prevtags != S-APRO : 0.03665154647022531
+prevtags is missing : 0.2635540939491763
+
+
+	Class 4 (class=владение)
+
+Decision Stump
+
+Classifications
+
+prevword = с : 2.1577419436735776
+prevword != с : 0.10008818014577804
+prevword is missing : 0.27478652245459156
+
+
+	Class 5 (class=очередь)
+
+Decision Stump
+
+Classifications
+
+prevword = на : 2.282164362641152
+prevword != на : -0.6990509608672324
+prevword is missing : -0.1320212056839342
+
+
+	Class 6 (class=помощь)
+
+Decision Stump
+
+Classifications
+
+nextword = будущее : 1.8671740879753735
+nextword != будущее : -1.0286924807776887
+nextword is missing : -0.89266918328075
+
+
+	Class 7 (class=сила_власть)
+
+Decision Stump
+
+Classifications
+
+nextword = наводить : 3.0
+nextword != наводить : -0.9013826541107537
+nextword is missing : -0.6874395567974882
+
+
+	Class 8 (class=недалеко)
+
+Decision Stump
+
+Classifications
+
+nextword = подавать : 2.86989594302242
+nextword != подавать : -0.5367895824061886
+nextword is missing : -0.12735089078129777
+
+
+	Class 9 (class=сторона)
+
+Decision Stump
+
+Classifications
+
+nextword = от : 1.8671740879753735
+nextword != от : -1.0286924807776894
+nextword is missing : -0.8926691832807518
+
+
+	Class 10 (class=состояние)
+
+Decision Stump
+
+Classifications
+
+prevword = легкий : 1.8671740879753738
+prevword != легкий : -1.0286924807776887
+prevword is missing : -0.89266918328075
+
+
+Iteration 3
+	Class 1 (class=орудие)
+
+Decision Stump
+
+Classifications
+
+prevword = все : 3.0
+prevword != все : 0.005837994428120206
+prevword is missing : 0.11965352889939836
+
+
+	Class 2 (class=конечность)
+
+Decision Stump
+
+Classifications
+
+prevtag = V : 1.0777899157754902
+prevtag != V : -0.17709441167932052
+prevtag is missing : -0.023681220950004217
+
+
+	Class 3 (class=власть)
+
+Decision Stump
+
+Classifications
+
+prevword = в : 0.8894042800711414
+prevword != в : -0.545520248760943
+prevword is missing : 0.052934072153756666
+
+
+	Class 4 (class=владение)
+
+Decision Stump
+
+Classifications
+
+prevword = к : 2.67858408224897
+prevword != к : 0.03217499668623492
+prevword is missing : 0.15601885417898131
+
+
+	Class 5 (class=очередь)
+
+Decision Stump
+
+Classifications
+
+word = руку : 1.9847823708377046
+word != руку : -0.5084322794754599
+word is missing : 0.0693751242278532
+
+
+	Class 6 (class=помощь)
+
+Decision Stump
+
+Classifications
+
+nextword = будущее : 1.176779770992192
+nextword != будущее : -1.0114017087991665
+nextword is missing : -0.8705287735502134
+
+
+	Class 7 (class=сила_власть)
+
+Decision Stump
+
+Classifications
+
+prevtag = A : 1.6909581713127275
+prevtag != A : -1.014062829742348
+prevtag is missing : -0.28871609900758094
+
+
+	Class 8 (class=недалеко)
+
+Decision Stump
+
+Classifications
+
+prevword = под : 2.1444179320623453
+prevword != под : -0.370049058255295
+prevword is missing : 0.24235859430838746
+
+
+	Class 9 (class=сторона)
+
+Decision Stump
+
+Classifications
+
+nextword = от : 1.2055986219082402
+nextword != от : -1.0114015429179093
+nextword is missing : -0.8543424966721189
+
+
+	Class 10 (class=состояние)
+
+Decision Stump
+
+Classifications
+
+prevword = легкий : 1.2055986219082404
+prevword != легкий : -1.0114015429179095
+prevword is missing : -0.8543424966721187
+
+
+Iteration 4
+	Class 1 (class=орудие)
+
+Decision Stump
+
+Classifications
+
+prevword = чужой : 3.0
+prevword != чужой : -0.06038759196952821
+prevword is missing : 0.0386296539060197
+
+
+	Class 2 (class=конечность)
+
+Decision Stump
+
+Classifications
+
+word = рук : -0.757593572653912
+word != рук : 0.2593869940086335
+word is missing : 0.13918931420581387
+
+
+	Class 3 (class=власть)
+
+Decision Stump
+
+Classifications
+
+prevtags = S-S : -1.3619105234186175
+prevtags != S-S : 0.2596631163883874
+prevtags is missing : -0.10107835668438657
+
+
+	Class 4 (class=владение)
+
+Decision Stump
+
+Classifications
+
+prevtags = S-APRO : 1.7965425650468043
+prevtags != S-APRO : -0.08195578902290625
+prevtags is missing : 0.029052987270747607
+
+
+	Class 5 (class=очередь)
+
+Decision Stump
+
+Classifications
+
+prevtag = ANUM : 3.0
+prevtag != ANUM : -0.649000176577972
+prevtag is missing : -0.20548978663067885
+
+
+	Class 6 (class=помощь)
+
+Decision Stump
+
+Classifications
+
+nextword = будущее : 1.1418434961080932
+nextword != будущее : -1.0052227687331172
+nextword is missing : -0.7313916416354315
+
+
+	Class 7 (class=сила_власть)
+
+Decision Stump
+
+Classifications
+
+prevword = жесткий : 1.5304517504367732
+prevword != жесткий : -0.7772619644181845
+prevword is missing : -0.5535968335472653
+
+
+	Class 8 (class=недалеко)
+
+Decision Stump
+
+Classifications
+
+nextword = подавать : 2.089935822016843
+nextword != подавать : -0.6638034947618756
+nextword is missing : -0.07659941512785735
+
+
+	Class 9 (class=сторона)
+
+Decision Stump
+
+Classifications
+
+nextword = от : 1.0685605666125046
+nextword != от : -1.0052228283782834
+nextword is missing : -0.8503977835851514
+
+
+	Class 10 (class=состояние)
+
+Decision Stump
+
+Classifications
+
+prevword = легкий : 1.0629401052467042
+prevword != легкий : -1.0052228362227325
+prevword is missing : -0.8611952237010546
+
+
+Iteration 5
+	Class 1 (class=орудие)
+
+Decision Stump
+
+Classifications
+
+prevword = собственный : 3.0
+prevword != собственный : -0.10277987452178147
+prevword is missing : 0.010382047056907522
+
+
+	Class 2 (class=конечность)
+
+Decision Stump
+
+Classifications
+
+prevword = собственный : -3.0
+prevword != собственный : 0.004783926676685222
+prevword is missing : -0.03603448026247822
+
+
+	Class 3 (class=власть)
+
+Decision Stump
+
+Classifications
+
+prevtags = SPRO-S : 1.9754218704902853
+prevtags != SPRO-S : -0.041393772891324676
+prevtags is missing : 0.08844038017456173
+
+
+	Class 4 (class=владение)
+
+Decision Stump
+
+Classifications
+
+prevword = классный : 3.0
+prevword != классный : -0.019635796909176974
+prevword is missing : 0.05009540167674724
+
+
+	Class 5 (class=очередь)
+
+Decision Stump
+
+Classifications
+
+prevword = на : 0.8631164154593647
+prevword != на : -0.7012923542288153
+prevword is missing : -0.0024684574823445253
+
+
+	Class 6 (class=помощь)
+
+Decision Stump
+
+Classifications
+
+nextword = будущее : 1.0612195832244666
+nextword != будущее : -1.002142770863508
+nextword is missing : -0.6675441501894576
+
+
+	Class 7 (class=сила_власть)
+
+Decision Stump
+
+Classifications
+
+nextword = рынок : 2.0775315091300217
+nextword != рынок : -0.7564592108884628
+nextword is missing : -0.17539363619841902
+
+
+	Class 8 (class=недалеко)
+
+Decision Stump
+
+Classifications
+
+word = руки : -1.764589074397484
+word != руки : 0.3962900914936726
+word is missing : 0.029650853927742596
+
+
+	Class 9 (class=сторона)
+
+Decision Stump
+
+Classifications
+
+nextword = от : 1.0280134821072058
+nextword != от : -1.0021427901397169
+nextword is missing : -0.8270600967840107
+
+
+	Class 10 (class=состояние)
+
+Decision Stump
+
+Classifications
+
+nextword = выдаваться : 1.0269515230783668
+nextword != выдаваться : -1.002142791804097
+nextword is missing : -0.832912686982738
+
+
+Iteration 6
+	Class 1 (class=орудие)
+
+Decision Stump
+
+Classifications
+
+prevword = русский : 3.0
+prevword != русский : -0.08349360475049115
+prevword is missing : -0.013167489450788498
+
+
+	Class 2 (class=конечность)
+
+Decision Stump
+
+Classifications
+
+nexttags = V-A : -1.9767700926180658
+nexttags != V-A : 0.08050372508841933
+nexttags is missing : 0.019088298083871847
+
+
+	Class 3 (class=власть)
+
+Decision Stump
+
+Classifications
+
+nextword = упорядочивать : 3.0
+nextword != упорядочивать : -0.06892177699557055
+nextword is missing : 0.001173189804540283
+
+
+	Class 4 (class=владение)
+
+Decision Stump
+
+Classifications
+
+prevword = хороший : 3.0
+prevword != хороший : -0.025813839349315953
+prevword is missing : 0.04553771368761053
+
+
+	Class 5 (class=очередь)
+
+Decision Stump
+
+Classifications
+
+word = руку : 0.612464813185464
+word != руку : -0.5872492685546666
+word is missing : -0.11855296417073267
+
+
+	Class 6 (class=помощь)
+
+Decision Stump
+
+Classifications
+
+nextword = будущее : 1.0233619344069986
+nextword != будущее : -1.000934629724393
+nextword is missing : -0.6698591759195509
+
+
+	Class 7 (class=сила_власть)
+
+Decision Stump
+
+Classifications
+
+prevtags = APRO-A : 1.2978906235568055
+prevtags != APRO-A : -0.526681027002238
+prevtags is missing : -0.07967729200211307
+
+
+	Class 8 (class=недалеко)
+
+Decision Stump
+
+Classifications
+
+prevword = уж : -3.0
+prevword != уж : 0.14483734294000758
+prevword is missing : -0.09045548560937869
+
+
+	Class 9 (class=сторона)
+
+Decision Stump
+
+Classifications
+
+nextword = от : 1.010591551183376
+nextword != от : -1.0009346337094602
+nextword is missing : -0.8333195654622766
+
+
+	Class 10 (class=состояние)
+
+Decision Stump
+
+Classifications
+
+nextword = выдаваться : 1.010316333201287
+nextword != выдаваться : -1.0009346340129501
+nextword is missing : -0.8372611744863911
+
+
+Iteration 7
+	Class 1 (class=орудие)
+
+Decision Stump
+
+Classifications
+
+prevword = все : 2.591288955642977
+prevword != все : -0.06938980043114998
+prevword is missing : 0.02663515542112955
+
+
+	Class 2 (class=конечность)
+
+Decision Stump
+
+Classifications
+
+prevword = поверхность : -3.0
+prevword != поверхность : -0.0051724792023237175
+prevword is missing : -0.032755961629380596
+
+
+	Class 3 (class=власть)
+
+Decision Stump
+
+Classifications
+
+nexttags = ADV-A : 2.3586898469590207
+nexttags != ADV-A : -0.05157251603367297
+nexttags is missing : 0.038945483684737936
+
+
+	Class 4 (class=владение)
+
+Decision Stump
+
+Classifications
+
+nextword = правительство : 3.0
+nextword != правительство : -0.033832160758177084
+nextword is missing : 0.03858000467598311
+
+
+	Class 5 (class=очередь)
+
+Decision Stump
+
+Classifications
+
+prevtag = ANUM : 1.473688149868402
+prevtag != ANUM : -0.39708187734751593
+prevtag is missing : -0.024996846499192545
+
+
+	Class 6 (class=помощь)
+
+Decision Stump
+
+Classifications
+
+nextword = будущее : 1.0100101060147895
+nextword != будущее : -1.0003967145304802
+nextword is missing : -0.6515059918756605
+
+
+	Class 7 (class=сила_власть)
+
+Decision Stump
+
+Classifications
+
+nextword = рынок : 1.272780701156467
+nextword != рынок : -0.5152850729768721
+nextword is missing : 0.07216630289241509
+
+
+	Class 8 (class=недалеко)
+
+Decision Stump
+
+Classifications
+
+word = рукой : 0.7244353793845727
+word != рукой : -0.541834225615651
+word is missing : -0.05711265658069767
+
+
+	Class 9 (class=сторона)
+
+Decision Stump
+
+Classifications
+
+nextword = от : 1.0044999207607674
+nextword != от : -1.0003967152669015
+nextword is missing : -0.8257303946403544
+
+
+	Class 10 (class=состояние)
+
+Decision Stump
+
+Classifications
+
+nextword = выдаваться : 1.0042976201676614
+nextword != выдаваться : -1.0003967153184672
+nextword is missing : -0.8328819093587075
+
+
+Iteration 8
+	Class 1 (class=орудие)
+
+Decision Stump
+
+Classifications
+
+prevword = нетаньяху : 3.0
+prevword != нетаньяху : -0.09617481531658416
+prevword is missing : -0.016277098633304354
+
+
+	Class 2 (class=конечность)
+
+Decision Stump
+
+Classifications
+
+prevtags = PART-S : -1.708721215290065
+prevtags != PART-S : 0.060256020149230156
+prevtags is missing : 0.005878511209929118
+
+
+	Class 3 (class=власть)
+
+Decision Stump
+
+Classifications
+
+nextword = божий : 3.0
+nextword != божий : -0.06270282201838202
+nextword is missing : 0.006134721924994651
+
+
+	Class 4 (class=владение)
+
+Decision Stump
+
+Classifications
+
+nexttags = CONJ-ADV : 2.793315577365611
+nexttags != CONJ-ADV : -0.06540503946854741
+nexttags is missing : 0.007629607469394569
+
+
+	Class 5 (class=очередь)
+
+Decision Stump
+
+Classifications
+
+nexttag = PR : -1.1250002525878124
+nexttag != PR : 0.22748103443257414
+nexttag is missing : 0.03873687459607051
+
+
+	Class 6 (class=помощь)
+
+Decision Stump
+
+Classifications
+
+nextword = будущее : 1.0039788532851444
+nextword != будущее : -1.000185330730308
+nextword is missing : -0.6657079050058392
+
+
+	Class 7 (class=сила_власть)
+
+Decision Stump
+
+Classifications
+
+nextword = наводить : 1.1521887771030324
+nextword != наводить : -0.3851419367376831
+nextword is missing : 0.10617791042971625
+
+
+	Class 8 (class=недалеко)
+
+Decision Stump
+
+Classifications
+
+prevword = под : 0.8994465020223005
+prevword != под : -0.6161137032324131
+prevword is missing : -0.08753314021883037
+
+
+	Class 9 (class=сторона)
+
+Decision Stump
+
+Classifications
+
+nextword = от : 1.001759548664484
+nextword != от : -1.0001853308760824
+nextword is missing : -0.83660564068248
+
+
+	Class 10 (class=состояние)
+
+Decision Stump
+
+Classifications
+
+nextword = выдаваться : 1.0017069524543298
+nextword != выдаваться : -1.0001853308845912
+nextword is missing : -0.8410955911511897
+
+
+Iteration 9
+	Class 1 (class=орудие)
+
+Decision Stump
+
+Classifications
+
+prevword = покладать : 3.0
+prevword != покладать : -0.06524145902471772
+prevword is missing : 0.011955650413243145
+
+
+	Class 2 (class=конечность)
+
+Decision Stump
+
+Classifications
+
+nexttags = S-A : -3.0
+nexttags != S-A : 0.01835793818211176
+nexttags is missing : -0.010218271485520779
+
+
+	Class 3 (class=власть)
+
+Decision Stump
+
+Classifications
+
+nextword = федерал : 3.0
+nextword != федерал : -0.0737596639356121
+nextword is missing : -0.0015909178418070898
+
+
+	Class 4 (class=владение)
+
+Decision Stump
+
+Classifications
+
+nextword = у : 1.6253494191739928
+nextword != у : -0.11185153933209739
+nextword is missing : 0.015877425237290993
+
+
+	Class 5 (class=очередь)
+
+Decision Stump
+
+Classifications
+
+word = руку : 0.41474156785677635
+word != руку : -0.5584217994763715
+word is missing : -0.016623480222446564
+
+
+	Class 6 (class=помощь)
+
+Decision Stump
+
+Classifications
+
+nextword = будущее : 1.0016950372764872
+nextword != будущее : -1.0000819921542616
+nextword is missing : -0.6536741467252808
+
+
+	Class 7 (class=сила_власть)
+
+Decision Stump
+
+Classifications
+
+nextword = рынок : 1.1232327372795632
+nextword != рынок : -0.4095575505963259
+nextword is missing : 0.14677130443351302
+
+
+	Class 8 (class=недалеко)
+
+Decision Stump
+
+Classifications
+
+nexttag = S : -1.3351290379948668
+nexttag != S : 0.3493329490125074
+nexttag is missing : -8.12677670581803E-4
+
+
+	Class 9 (class=сторона)
+
+Decision Stump
+
+Classifications
+
+nextword = от : 1.0007158243776626
+nextword != от : -1.0000819921840947
+nextword is missing : -0.8373301002408226
+
+
+	Class 10 (class=состояние)
+
+Decision Stump
+
+Classifications
+
+prevword = легкий : 1.0007109321505485
+prevword != легкий : -1.0000819921851778
+prevword is missing : -0.8383514375718606
+
+
+Iteration 10
+	Class 1 (class=орудие)
+
+Decision Stump
+
+Classifications
+
+nextword = адидасовский : 3.0
+nextword != адидасовский : -0.06421654373657658
+nextword is missing : 0.01574829179680932
+
+
+	Class 2 (class=конечность)
+
+Decision Stump
+
+Classifications
+
+nextword = ориентировать : -3.0
+nextword != ориентировать : 0.03533697755562179
+nextword is missing : 0.00470421493557794
+
+
+	Class 3 (class=власть)
+
+Decision Stump
+
+Classifications
+
+nextword = ориентировать : 3.0
+nextword != ориентировать : -0.07684126512808956
+nextword is missing : -1.3174495254550682E-5
+
+
+	Class 4 (class=владение)
+
+Decision Stump
+
+Classifications
+
+nextword = веселый : 3.0
+nextword != веселый : -0.08299634951638907
+nextword is missing : -0.010519129547954226
+
+
+	Class 5 (class=очередь)
+
+Decision Stump
+
+Classifications
+
+prevtag = ANUM : 1.173506969726373
+prevtag != ANUM : -0.2470792038472988
+prevtag is missing : -0.022862188326947076
+
+
+	Class 6 (class=помощь)
+
+Decision Stump
+
+Classifications
+
+nextword = будущее : 1.0007010057805794
+nextword != будущее : -1.0000354690686433
+nextword is missing : -0.6500866913422466
+
+
+	Class 7 (class=сила_власть)
+
+Decision Stump
+
+Classifications
+
+prevword = жесткий : 1.0797930589283966
+prevword != жесткий : -0.3332675701825181
+prevword is missing : 0.1654167582565273
+
+
+	Class 8 (class=недалеко)
+
+Decision Stump
+
+Classifications
+
+prevtags = PR-S : 1.1385692114595067
+prevtags != PR-S : -0.31383841147452773
+prevtags is missing : -0.08045808894987573
+
+
+	Class 9 (class=сторона)
+
+Decision Stump
+
+Classifications
+
+nextword = от : 1.0002926193199806
+nextword != от : -1.000035469075434
+nextword is missing : -0.8372944111892064
+
+
+	Class 10 (class=состояние)
+
+Decision Stump
+
+Classifications
+
+nextword = выдаваться : 1.0002886162874438
+nextword != выдаваться : -1.0000354690754354
+nextword is missing : -0.8393409985339385
+
+Number of performed iterations: 10
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         143               71.5    %
+Incorrectly Classified Instances        57               28.5    %
+Kappa statistic                          0.3956
+Mean absolute error                      0.0757
+Root mean squared error                  0.2092
+Relative absolute error                 63.2902 %
+Root relative squared error             86.6903 %
+Total Number of Instances              200
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.222    0.016    0.571      0.222    0.320      0.320    0.743     0.408     орудие
+                 0.960    0.600    0.727      0.960    0.828      0.459    0.762     0.804     конечность
+                 0.333    0.017    0.700      0.333    0.452      0.445    0.870     0.538     власть
+                 0.063    0.022    0.200      0.063    0.095      0.071    0.672     0.235     владение
+                 0.857    0.000    1.000      0.857    0.923      0.923    1.000     1.000     очередь
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.045     0.005     помощь
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.080     0.008     сила_власть
+                 0.625    0.010    0.714      0.625    0.667      0.655    0.991     0.684     недалеко
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.412     0.008     сторона
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.513     0.010     состояние
+Weighted Avg.    0.715    0.380    0.659      0.715    0.660      0.426    0.769     0.677
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   <-- classified as
+   4  12   1   1   0   0   0   0   0   0 |   a = орудие
+   0 120   1   2   0   0   0   2   0   0 |   b = конечность
+   1  12   7   1   0   0   0   0   0   0 |   c = власть
+   0  14   1   1   0   0   0   0   0   0 |   d = владение
+   0   1   0   0   6   0   0   0   0   0 |   e = очередь
+   0   1   0   0   0   0   0   0   0   0 |   f = помощь
+   1   1   0   0   0   0   0   0   0   0 |   g = сила_власть
+   1   2   0   0   0   0   0   5   0   0 |   h = недалеко
+   0   1   0   0   0   0   0   0   0   0 |   i = сторона
+   0   1   0   0   0   0   0   0   0   0 |   j = состояние
